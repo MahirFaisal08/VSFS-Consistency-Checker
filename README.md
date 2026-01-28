@@ -33,5 +33,13 @@ It analyzes a file system image and ensures that core metadata structures remain
 ## Compilation & Run
 
 ### Compile
-```bash
+# Clone the repository
+git clone https://github.com/MahirFaisal08/VSFS-Consistency-Checker.git
+cd VSFS-Consistency-Checker
+
+# Compile the checker
 gcc vsfsck.c -o vsfsck
+
+# Run the checker
+./vsfsck vsfs.img
+
